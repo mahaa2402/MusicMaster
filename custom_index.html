@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A Spotify-like music streaming application">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MyMusicStream">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>MyMusicStream</title>
+  
+  <style>
+    body {
+      inset: 0;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: fixed;
+      background-color: #1E1E1E;
+    }
+    #loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+    .spinner {
+      width: 50px;
+      height: 50px;
+      animation: rotate 2s linear infinite;
+    }
+    .path {
+      stroke: #1DB954; /* Spotify green */
+      stroke-width: 5px;
+      stroke-linecap: round;
+      animation: dash 1.5s ease-in-out infinite;
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: 0;
+    }
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes dash {
+      0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+      }
+      100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <svg class="spinner" viewBox="0 0 50 50">
+      <circle class="path" cx="25" cy="25" r="20" fill="none"></circle>
+    </svg>
+  </div>
+
+  <script>
+    // Explicitly set the MIME type for the main.dart.js file
+    function loadApp() {
+      // Remove loading indicator when app is loaded
+      var loadingElement = document.getElementById('loading');
+      
+      // Create Flutter script tag with correct MIME type
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      
+      // Listen for load event to remove loading indicator
+      scriptTag.onload = function() {
+        if (loadingElement) {
+          loadingElement.style.display = 'none';
+        }
+      };
+      
+      // Append script to body
+      document.body.appendChild(scriptTag);
+    }
+    
+    // Call loadApp when page is ready
+    window.addEventListener('load', loadApp);
+  </script>
+</body>
+</html>

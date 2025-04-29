@@ -1,0 +1,110 @@
+[
+  {
+    "id": "song1",
+    "title": "Midnight Groove",
+    "artist": "The Rhythm Collective",
+    "albumArt": "assets/images/album1.jpg",
+    "assetPath": "assets/audio/song1.mp3",
+    "duration": 224,
+    "album": "Night Vibes"
+  },
+  {
+    "id": "song2",
+    "title": "Sunset Dreams",
+    "artist": "Luna Skies",
+    "albumArt": "assets/images/album2.jpg",
+    "assetPath": "assets/audio/song2.mp3",
+    "duration": 198,
+    "album": "Daydreamer"
+  },
+  {
+    "id": "song3",
+    "title": "Electric Soul",
+    "artist": "Neon Beats",
+    "albumArt": "assets/images/album3.jpg",
+    "assetPath": "assets/audio/song3.mp3",
+    "duration": 243,
+    "album": "Digital Age"
+  },
+  {
+    "id": "song4",
+    "title": "Acoustic Memories",
+    "artist": "The String Quartet",
+    "albumArt": "assets/images/album4.jpg",
+    "assetPath": "assets/audio/song4.mp3",
+    "duration": 187,
+    "album": "Simple Times"
+  },
+  {
+    "id": "song5",
+    "title": "Urban Pulse",
+    "artist": "Metro Flow",
+    "albumArt": "assets/images/album5.jpg",
+    "assetPath": "assets/audio/song5.mp3",
+    "duration": 210,
+    "album": "City Lights"
+  },
+  {
+    "id": "song6",
+    "title": "Ocean Waves",
+    "artist": "Coastal Sounds",
+    "albumArt": "assets/images/album6.jpg",
+    "assetPath": "assets/audio/song6.mp3",
+    "duration": 256,
+    "album": "Beach Day"
+  },
+  {
+    "id": "song7",
+    "title": "Dancing in Moonlight",
+    "artist": "Luna Skies",
+    "albumArt": "assets/images/album2.jpg",
+    "assetPath": "assets/audio/song7.mp3",
+    "duration": 205,
+    "album": "Daydreamer"
+  },
+  {
+    "id": "song8",
+    "title": "Jazz Café",
+    "artist": "The Rhythm Collective",
+    "albumArt": "assets/images/album1.jpg",
+    "assetPath": "assets/audio/song8.mp3",
+    "duration": 235,
+    "album": "Night Vibes"
+  },
+  {
+    "id": "song9",
+    "title": "Summer Memories",
+    "artist": "Coastal Sounds",
+    "albumArt": "assets/images/album6.jpg",
+    "assetPath": "assets/audio/song9.mp3",
+    "duration": 192,
+    "album": "Beach Day"
+  },
+  {
+    "id": "song10",
+    "title": "Neon Streets",
+    "artist": "Metro Flow",
+    "albumArt": "assets/images/album5.jpg",
+    "assetPath": "assets/audio/song10.mp3",
+    "duration": 227,
+    "album": "City Lights"
+  },
+  {
+    "id": "song11",
+    "title": "Classical Journey",
+    "artist": "The String Quartet",
+    "albumArt": "assets/images/album4.jpg",
+    "assetPath": "assets/audio/song11.mp3",
+    "duration": 248,
+    "album": "Simple Times"
+  },
+  {
+    "id": "song12",
+    "title": "Digital Dreams",
+    "artist": "Neon Beats",
+    "albumArt": "assets/images/album3.jpg",
+    "assetPath": "assets/audio/song12.mp3",
+    "duration": 215,
+    "album": "Digital Age"
+  }
+]
