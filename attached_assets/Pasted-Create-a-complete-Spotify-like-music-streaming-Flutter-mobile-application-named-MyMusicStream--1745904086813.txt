@@ -1,0 +1,50 @@
+Create a complete Spotify-like music streaming **Flutter mobile application** named **MyMusicStream** with the following features. Ensure code is clean, modular, and fully documented. Although Replit cannot run the UI, the project must be exportable and runnable on Android using Android Studio or VS Code.
+
+📱 **UI/UX:**
+- Modern, dark-themed UI similar to Spotify.
+- Home tab: display a scrollable list of songs with artwork, title, artist.
+- Bottom navigation tabs: Home, Search, Library, and Now Playing.
+- Beautiful Now Playing screen: song art, title, artist, progress bar, play/pause/next/prev buttons.
+
+🔐 **Authentication:**
+- Login & Register screens with local mock user data using `shared_preferences`.
+
+🎵 **Core Features:**
+- Play, Pause, Next, Previous song controls using `just_audio`.
+- Like/unlike a song to add/remove it from Favorites.
+- Real-time Search by song or artist name.
+- Create and manage a dynamic **Queue** (add, reorder, remove).
+- Shuffle and Repeat functionality.
+- Store playback state between sessions.
+
+📁 **Library Tab:**
+- Sections: Liked Songs, Recently Played, and Playlists.
+- Allow users to create custom playlists and add/remove songs.
+
+🌐 **Network Awareness:**
+- Detect online/offline state using `connectivity_plus`.
+- Show a status indicator (e.g., "Offline Mode Active").
+
+🗂️ **Data & State Management:**
+- Use `Provider` for state management.
+- Store song metadata (title, artist, path, artwork) in local JSON.
+- Use `assets/` folder for 10–15 sample MP3s and images.
+
+📦 **Project Requirements:**
+- Folder structure should be modular (`models/`, `screens/`, `widgets/`, `providers/`).
+- Include a `README.md` with:
+  - Setup instructions
+  - Key features
+  - How to run on Android device or emulator
+
+🔄 **Offline First:**
+- No actual backend calls.
+- Simulate API responses via local JSON.
+- Must run **fully offline** on Android.
+
+📁 **Deliverables:**
+- Complete Flutter project in Replit workspace.
+- Code can be zipped or published as a GitHub repo.
+- Must be directly runnable on Android Studio after download.
+
+Also include placeholder data, songs, and images. Add appropriate license comments if using public/f
